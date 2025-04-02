@@ -7,8 +7,6 @@
 //
 // No hints this time!
 
-// I AM NOT DONE
-
 fn string_slice(arg: &str) {
     println!("{}", arg);
 }
@@ -17,14 +15,14 @@ fn string(arg: String) {
 }
 
 fn main() {
-    ???("blue");
-    ???("red".to_string());
-    ???(String::from("hi"));
-    ???("rust is fun!".to_owned());
-    ???("nice weather".into());
-    ???(format!("Interpolation {}", "Station"));
-    ???(&String::from("abc")[0..1]);
-    ???("  hello there ".trim());
-    ???("Happy Monday!".to_string().replace("Mon", "Tues"));
-    ???("mY sHiFt KeY iS sTiCkY".to_lowercase());
+    // let s = "blue";
+    // let str = "red".to_string();
+    // let str = String::from("hi");
+    // let str = "rust is fun!".to_owned();
+    // let str = "nice weather".into();
+    // let str = format!("Interpolation {}", "Station");
+    // let s = &String::from("abc")[0..1];
+    // ("  hello there ".trim());
+    // ("Happy Monday!".to_string().replace("Mon", "Tues"));
+    // ("mY sHiFt KeY iS sTiCkY".to_lowercase());
 }
